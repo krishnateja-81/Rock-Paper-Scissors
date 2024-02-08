@@ -13,8 +13,9 @@
 .gamecomponent{
   cursor: pointer;
 }
-.clicked{
-  transform: translateY(-5rem);
+
+.winner{
+  padding-top: 2rem;
 }
 .seed{
   display: flex;

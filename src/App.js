@@ -1,10 +1,22 @@
 import "./App.css";
+
+import { 
+  BrowserRouter as Router,
+  Route, 
+  Routes
+  } from 'react-router-dom';
+
+
+// components 
 import Rps from "./rps";
+import Win from "./win";
+
+// images
 import rock from "./images/rock.png";
 import paper from "./images/paper.png";
 import scissor from "./images/scissor.png";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Win from "./win";
+
+
 
 function App() {
   let cmp = ["rock", "paper", "scissor"];
@@ -25,7 +37,7 @@ function App() {
         <div>
           <h1>Rock Paper Scissors</h1>
           <center>
-            <a href="/" className="btn btn-primary btn-lg">
+            <a href="/" className="btn btn-primary btn-lg" >
               Reset
             </a>
           </center>
