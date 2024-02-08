@@ -1,6 +1,10 @@
 *{
   overflow: hidden;
 }
+::selection{
+  background-color: red;
+  color: white;
+}
 
 
 .abcd{
@@ -16,6 +20,7 @@
 
 .winner{
   padding-top: 2rem;
+  color: red;
 }
 .seed{
   display: flex;
