@@ -7,6 +7,8 @@ I've poured my heart into creating this interactive game, implementing features 
 ## Demo
 ![Rock Paper Scissors Game Screenshot](https://github.com/krishnateja-81/Rock-Paper-Scissors/blob/master/rps.JPG)
 
+
+
 ![Rock Paper Scissors Game Screenshot](https://github.com/krishnateja-81/Rock-Paper-Scissors/blob/master/winner.JPG)
 ## Try it out
 [Play the game now!](https://kt-rps.netlify.app/)
