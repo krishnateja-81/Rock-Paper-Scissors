@@ -1,0 +1,23 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: rps-game
+  namespace: argocd
+spec:
+  project: default
+
+  source:
+    repoURL: https://github.com/krishnateja-81/Rock-Paper-Scissors.git
+    targetRevision: kubernetes-deployment
+    path: k8s
+
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: rps-game
+
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+    syncOptions:
+      - CreateNamespace=true

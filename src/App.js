@@ -37,12 +37,12 @@ function App() {
         <div>
           <h1>Rock Paper Scissors</h1>
           <center>
-            <a href="/" className="btn btn-danger btn-lg" >
+            <a href={`${process.env.PUBLIC_URL}/`} className="btn btn-danger btn-lg" >
               Reset
             </a>
           </center>
         </div>
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
           <Routes>
           <Route path="/" exact element={(Home())} />
             <Route path="analyze" exact element={<Win />} />

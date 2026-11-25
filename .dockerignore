@@ -1,0 +1,11 @@
+node_modules
+build
+.git
+.gitignore
+.env
+.env.*
+npm-debug.log*
+README.md
+rps.JPG
+winner.JPG
+coverage
