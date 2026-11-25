@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: rps-game
-          image: ghcr.io/krishnateja-81/rps-game:initial
+          image: ghcr.io/krishnateja-81/rps-game:3eccec3
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 80
